@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
+"""
+Function performs matrix multiplication between two 2D matrices.
+"""
+
+
 def mat_mul(mat1, mat2):
+    """
+    Performs matrix multiplication between two 2D matrices.
+    """
     if len(mat1[0]) != len(mat2):
         return None
     result = []
