@@ -6,7 +6,9 @@ the shape of matrix and returns it as a list of integers.
 
 
 def matrix_shape(matrix):
-    # Function for calculating shape of matrix
+    """
+    Returns the shape of a nested list (matrix) as a list of integers.
+    """
     shape = []
     while isinstance(matrix, list):
         shape.append(len(matrix))
