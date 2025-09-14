@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+Function Returns the transpose of a 2D matrix.
+"""
+
+
 def matrix_transpose(matrix):
     """
     Returns the transpose of a 2D matrix.
