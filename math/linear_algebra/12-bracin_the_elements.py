@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Performs element-wise operations on two numpy arrays (matrices).
+Function that performs elementwise operations
 """
-import numpy as np
 
 
 def np_elementwise(mat1, mat2):
+    """Returns a tuple consisting of elementwise operations
     """
-    Performs element-wise operations on two numpy arrays (matrices).
-    """
-    mat1 = np.array(mat1)
-    mat2 = np.array(mat2)
-    return (mat1 + mat2, mat1 - mat2, mat1 * mat2, mat1 / mat2)
+    add = mat1 + mat2
+    sub = mat1 - mat2
+    mul = mat1 * mat2
+    div = mat1 / mat2
+    return (add, sub, mul, div)
