@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-    Function adds two 2D matrices element-wise, and 
-    returns the list of lists or None: Element-wise sum if shapes match, else None.
+    Function adds two 2D matrices element-wise,
+and returns the list of lists or None: Element-wise sum if shapes match,
+else None.
     """
 
 
